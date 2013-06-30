@@ -60,8 +60,6 @@ public class Game extends Board
             System.out.println();
         }
         System.out.println();
-        System.out.println();
-        System.out.println();
     }
 
     public void endTurn()
