@@ -55,26 +55,9 @@ public class Game extends Board
                 } else {
                     System.out.print("[" + this.players[this.aBoard[i][j]].getValue() + "]");
                 }
-                /*if (j < 2) {
-                 if (this.aBoard[i][j] == NULO) {
-                 System.out.print("[ ]");
-                 } else {
-                 System.out.print("[" + this.players[this.aBoard[i][j]].getValue() + "]");
-                 }
-
-                 } else {
-                 if (this.aBoard[i][j] == NULO) {
-                 System.out.print("[ ]");
-                 } else {
-                 System.out.print("[" + this.players[this.aBoard[i][j]].getValue() + "]");
-                 }
-                 }*/
-
             }
 
-            //if (i < 2) {
             System.out.println();
-            //}
         }
         System.out.println();
         System.out.println();
